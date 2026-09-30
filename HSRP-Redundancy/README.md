@@ -7,6 +7,7 @@ Configure and verify Cisco Hot Standby Router Protocol (HSRP) to provide default
 The lab demonstrates HSRP active/standby roles and automatic failover when the active router becomes unavailable.
 
 Topology
+<img width="1244" height="601" alt="Screenshot 2026-09-30 105731" src="https://github.com/user-attachments/assets/86afdff8-2fae-48a6-aaf4-cc2b1e383d7d" />
 
 * ISP Router
 * R1 — HSRP Active
