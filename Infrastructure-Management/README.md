@@ -157,6 +157,7 @@ show lldp neighbors detail
 Connectivity
 
 ping 192.168.100.10
+<img width="1359" height="721" alt="Screenshot 2026-10-01 163431" src="https://github.com/user-attachments/assets/d01c2baa-06e7-4676-bcfb-bd1db61b7d81" />
 
 Expected Results
 
