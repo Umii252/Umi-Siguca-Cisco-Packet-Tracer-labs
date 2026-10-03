@@ -7,6 +7,7 @@ IPv6 Addressing
 * PC-A LAN: 2001:DB8:AAAA:1::/64
 * Inter-Router WAN: 2001:DB8:AAAA:2::/64
 * PC-B LAN: 2001:DB8:AAAA:3::/64
+<img width="1361" height="718" alt="Screenshot 2026-10-03 105621" src="https://github.com/user-attachments/assets/6c2d79b3-ec5e-459b-90a6-0bab4efeffa4" />
 
 Configuration
 
