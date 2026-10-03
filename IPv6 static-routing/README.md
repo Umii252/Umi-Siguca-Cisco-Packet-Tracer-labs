@@ -50,6 +50,27 @@ CCNA Skills Practiced
 * Cisco IOS CLI
 * Cisco Packet Tracer
 
-🚀 Next Lab
-
 Part 2: IPv6 OSPFv3 Dynamic Routing
+---
+
+##  Part 2: Transitioning to Dynamic OSPFv3 Routing
+
+In this phase, manual routing entries were purged and replaced with a dynamic Link-State routing environment using **OSPFv3**.
+
+### Configuration Syntax Breakdown
+Unlike traditional routing setups, OSPFv3 configurations are tied directly to active interfaces.
+
+```text
+! Step 1: Initialise process and define mandatory 32-bit ID
+R1(config)# ipv6 router ospf 1
+R1(config-rtr)# router-id 1.1.1.1
+R1(config-rtr)# exit
+
+! Step 2: Inject interfaces straight into Area 0
+R1(config)# interface GigabitEthernet0/0
+R1(config-if)# ipv6 ospf 1 area 0
+```
+
+### Operational Verification Commands
+- Use `show ipv6 ospf neighbor` to confirm valid neighborhood adjacency states read `FULL`.
+- Use `show ipv6 route ospf` to filter out and display only dynamically acquired paths.
