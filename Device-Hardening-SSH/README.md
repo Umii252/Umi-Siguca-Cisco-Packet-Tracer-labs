@@ -6,18 +6,8 @@ Harden the control plane of a Cisco Catalyst switch to secure administrative acc
 
 This lab focuses on configuring a local high-privilege administrator account, generating RSA cryptographic keys, disabling insecure Telnet access, enforcing SSHv2 on virtual terminal lines, and implementing an explicit legal warning banner.
 
-Topology Diagram
-
-┌────────────────────────┐
-│    Admin-Workstation   │
-│   PC Management Node   │
-└───────────┬────────────┘
-            │ Fa0/1
-            │
-┌───────────┴────────────┐
-│     SW1-Hardened       │
-│    Catalyst 2960       │
-└────────────────────────┘
+Topology 
+<img width="1362" height="719" alt="Screenshot 2026-10-05 004326" src="https://github.com/user-attachments/assets/c3b96500-9e95-41f8-83de-40069ddff851" />
 
 IP Addressing Plan
 
